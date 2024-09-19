@@ -1,0 +1,43 @@
+#main a{
+text-decoration:none;
+font-size:1.2em;
+color:#fff;
+font-weight:bold;
+padding-right:15px;
+display:inline-block;
+padding-top:24px;
+padding-bottom:24px;
+margin-top:-24px
+
+}
+#main >span{
+position:absolute;
+margin-left:70%
+}
+#main a:hover{
+background-color:#76CD26;
+margin-left:-4px
+}
+body{
+background-color:#76CD26;
+}
+#main{
+height:40px;
+padding:25px 10px 5px 20px;
+width:104%;
+margin:-9px 0px 0px -9px;
+background-color:orange;
+}
+.wrapper{
+background-color:#fff;
+margin:40px 60px 40px 60px;
+border-radius:15px;
+padding-left:20px
+}
+section{
+margin-left:12%
+}
+section>img{
+border-radius:50%;
+margin:20px
+}

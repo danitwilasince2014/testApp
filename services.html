@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>My first web page</title>
+
+
+<link rel="stylesheet" href="DataTables/datatables.css" type="text/css">
+<script
+  src="DataTables/datatables.min.js"></script>
+  
+  
+<script>
+ $(document).ready( function () {
+  new DataTable('#myTable',
+    {
+      ordering:false,
+      pagination:false
+    }
+  );
+} );
+</script>
+</head>
+<body>
+<div id="main">
+<span>
+<a class="active"  href="index.html">Home</a>                                                                            
+ <a href="about.html">About Us</a>    
+<a href="contact.html">Contact Us</a>   
+
+<a href="services.html">Our Services</a> 
+</span>
+</div>
+
+<p align="center"> <!--wrapper -->
+<h1><center><font face="verdana"><font color="blue">Our services</font></font></center></h1>
+<p align="center" class="text-warning"> 
+<font size="6">
+Hello, this is my new website, enjoy it!<br /> I tried to 
+make it as good as possible </font></p>
+<p align="center"><b><font size="6"> 
+<font color="orange"><u>Our Services</u></font></font></b></p>
+<div class="container">
+  <table class="table table-bordered rounded table-striped" id="myTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+        <tr>
+          <td>SEO</td><td>Search engines optmization</td><td>Available</td>
+        </tr>
+      </tr>
+      </tbody>
+  </table>
+
+
+</div>
+<marquee direction="right"> <font color="red">Thanks for visiting my website</font></marquee>
+</p>  <!-- end wrapper -->
+<a href="us/camp/about.html">About us</a> | <a href="https://www.google.com">Visit google</a> |<a href="downloads/docs/readme.zip">Download read file</a>
+
+
+</body>
+</html>

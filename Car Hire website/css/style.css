@@ -1,0 +1,186 @@
+header .carousel-inner .item{
+    height: 100vh;
+}
+.navbar-inverse{
+border-color: transparent;
+opacity: .4;
+
+}
+.navbar-inverse .navbar-brand{
+    color:#eae5e5;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#eae5e5;
+    text-transform: uppercase;
+}
+.banner{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+} 
+.carousel-caption{
+    padding-bottom:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.carousel-caption h2{
+    font-size:35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel-caption h2 sp{
+    color:#edbb00;
+}
+.carousel-caption a{
+    background: #edbb00;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color:#fff;
+    text-transform: uppercase;
+    border-radius:25px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-indicators .active{
+    background-color: #edbb00;
+    border-color: #edbb00;
+}
+/*CARD TESTIMONIES                                */
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.slide-container >*{
+  font-family: 'Poppins', sans-serif;
+}
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay-slide{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070F4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay-slide::before,
+.overlay-slide::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+.overlay-slide::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4070F4;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn2{
+  color: #f7b36e;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn2:hover{
+  color: #4070F4;
+}
+.swiper-navBtn2::before,
+.swiper-navBtn2::after{
+  font-size: 10px;
+}
+.swiper-button-prev{
+  margin-left:-1%;
+}
+.swiper-button-next{
+  margin-right: -1%;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
